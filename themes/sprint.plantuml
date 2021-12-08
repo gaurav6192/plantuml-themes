@@ -1,0 +1,40 @@
+@startwbs
+skinparam classFontName Calibri
+<style>
+wbsDiagram {
+    node {
+        Linestyle 0
+        BackgroundColor White
+        RoundCorner 10
+    }
+    arrow {
+        Linestyle 2
+        Linecolor #5E6C84
+    }
+    .sprint {
+        Linecolor #FF5630
+    }
+    .component {
+        Linecolor #172B4D
+    }
+    .epic {
+        Linecolor #6554C0
+    }
+    .product {
+        Linecolor #36B37E
+    }
+    .task {
+        Linecolor #00B8D9
+    }
+    .devsubtask {
+        Linecolor #0052CC
+    }
+    .qasubtask {
+        Linecolor #FFAB00
+    }
+    .bug {
+        Linecolor #BF2600
+    }
+}
+</style>
+@endwbs
